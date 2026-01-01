@@ -1,0 +1,7 @@
+tunnel: n8n-tunnel
+credentials-file: C:\Users\<user>\.cloudflared\n8n-tunnel.json
+
+ingress:
+  - hostname: n8n.domainanda.com
+    service: http://localhost:5678
+  - service: http_status:404
